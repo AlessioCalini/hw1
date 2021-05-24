@@ -1,0 +1,121 @@
+p{
+    margin:0px;
+}
+body{
+    color:rgba(26,26,26,.7);
+    font-family: 'Raleway', sans-serif;
+    font-size:32px;
+    margin:0;
+    background-image: url(https://www.greenme.it/wp-content/uploads/2020/05/palestra.jpg);
+    background-position:center;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+
+#overlay{
+    background-color:rgba(0,0,0,0.3);
+    position:absolute;
+    top:0;
+    bottom:0;
+    height:100%;
+    width:100%;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    width:30vw;
+    height:65vh;
+    background: white;
+    position: relative;
+    flex-direction: column;
+    margin-top:50px;
+}
+
+#header{
+    font-size: 0.75em;
+    display: flex;
+    align-items: center;
+}
+
+#header img{
+    width:50px;
+    height:50px;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 60%;
+    margin-top:10px;
+    
+}
+
+.error {
+    padding: 4px 10px;
+    font-weight: bold;
+    background: #ffe2e2;
+    border-radius: 7px;
+    color: #fa1c2c;
+    margin: 5px;
+    font-size: 16px;
+    display: inline-block;
+    z-index: 1;
+}
+
+input{
+    
+    border:none;
+    border-bottom:1px solid rgba(109, 93,93,0.4);
+    padding: 10px;
+    margin: 5px 0 5px 0;
+   
+}
+
+label,span{
+    display:block;
+    margin:auto;
+    text-align:center;
+}
+span{
+    font-weight: normal;
+    font-size: 28px;
+}
+
+#signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+    background-color:rgb(46, 45, 45);
+    
+}
+
+#signup a{
+    color: white;
+    text-decoration: none;
+  }
+
+.btn{
+	display: block;
+	width: 200px;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-color: #cc220a;
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin: 10px;
+	cursor: pointer;
+}
